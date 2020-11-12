@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang='es'>
     <head>
-        <title>canvas</title>
-        <canvas id="tablero" width="1000" height="1000"></canvas>
+        <meta charset="iso-8859-1">
+        <meta name="description" content="Juego Web">
+        <meta name="keywords" content="Cuadros,Juego,Web">
+        <title>PRISMA SQUARE</title>
+        <canvas id="tablero" width="350" height="350"></canvas>
+        <link rel="stylesheet" href="EstiloPS.css" type="text/css">
+        <script src="Sonidos.js"></script>
         <script src="Table.js"></script>
     </head>
     <body>
+        <h1>PRISMA SQUARE</h1>
+        <div>
+            <h2>El juego consiste en lo siguiente:</h2>
+        </div>
+        <div>
+            <p>Debe hacer click en cada cuadro para conseguir la combinacion correcta, y
+                conseguir pintar todo de un solo color.<br>
+                El boton de inicio indicara el color necesario para ganar.</br>
+            </p>
+        </div>
+        <div>
+        <div class="cronometro">
+            <div id="hms"></div>
+            <button id="inicio" class="boton start">INICIO</button>
+        </div>
     </body>
 </html>
